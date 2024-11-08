@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Leno App || Health and Productivity</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google-fonts -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <navbar class="navbar">
+      <div class="navbar__container container">
+        <!-- Logo -->
+        <div class="navbar__logo">
+          <img src="./images/logo.svg" alt="logo" class="navbar__logo-img" />
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="navbar__mobile-menu">
+          <div class="navbar__mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="navbar__mobile-menu-items">
+            <ul class="navbar__mobile-menu-list">
+              <li class="navbar__mobile-menu-item">
+                <a href="index.html#hero" class="navbar__mobile-menu-link"
+                  >Home</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="index.html#features" class="navbar__mobile-menu-link"
+                  >Features</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="index.html#preview" class="navbar__mobile-menu-link"
+                  >Preview</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="index.html#details" class="navbar__mobile-menu-link"
+                  >Details</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a href="index.html#download" class="navbar__mobile-menu-link"
+                  >Downloads</a
+                >
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a
+                  href="index.html#hero"
+                  target="_blank"
+                  class="navbar__mobile-menu-link--primary"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="navbar__mobile-menu-item">
+                <a
+                  href="index.html#hero"
+                  target="_blank"
+                  class="navbar__mobile-menu-link--primary"
+                >
+                  <i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Main Desktop Menu -->
+        <div class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <a href="index.html#hero" class="navbar__menu-link">Home</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="index.html#features" class="navbar__menu-link"
+                >Features</a
+              >
+            </li>
+            <li class="navbar__menu-item">
+              <a href="index.html#preview" class="navbar__menu-link">Preview</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="index.html#details" class="navbar__menu-link">Details</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="index.html#download" class="navbar__menu-link"
+                >Downloads</a
+              >
+            </li>
+            <li class="navbar__menu-item">
+              <a
+                href="index.html#hero"
+                target="_blank"
+                class="navbar__menu-link--primary"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a
+                href="index.html#hero"
+                target="_blank"
+                class="navbar__menu-link--primary"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </navbar>
+
+    <!-- Inner Header section -->
+    <header class="inner-header" id="inner-header">
+      <div class="inner-header__container container">
+        <h1 class="inner-header__title">Details</h1>
+      </div>
+    </header>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+      <div class="pricing__container container">
+        <h2 class="pricing__title">Pricing Options</h2>
+        <div class="pricing__cards">
+          <!-- Standard card -->
+          <div class="pricing__card standard">
+            <div class="pricing__box">
+              <h2 class="pricing__package">Standard</h2>
+              <p class="price">Free</p>
+              <ul class="pricing__features">
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  Unlimited access to all features
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  24/7 Customer Support
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  1GB Storage
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  Cancel Anytime
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn pricing__btn">Get Started</a>
+          </div>
+
+          <!-- Advanced card -->
+          <div class="pricing__card advanced">
+            <div class="pricing__box">
+              <h2 class="pricing__package">Advanced</h2>
+              <p class="price">&dollar;19</p>
+              <ul class="pricing__features">
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  Unlimited access to all features
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  24/7 Customer Support
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  5GB Storage
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  Cancel Anytime
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn pricing__btn">Get Started</a>
+          </div>
+
+          <!-- Complete card -->
+          <div class="pricing__card complete">
+            <div class="pricing__box">
+              <h2 class="pricing__package">Complete</h2>
+              <p class="price">&dollar;29</p>
+              <ul class="pricing__features">
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  Unlimited access to all features
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  24/7 Customer Support
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  15GB Storage
+                </li>
+                <li class="pricing__features-list-item">
+                  <i class="fas fa-check"></i>
+                  Cancel Anytime
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="btn pricing__btn">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Note -->
+      <div class="pricing__note" id="pricing__note">
+        <div class="pricing__note-container container">
+          <p>
+            * Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            temporibus!
+          </p>
+          <p>
+            * Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            temporibus Lorem ipsum dolor sit amet.
+          </p>
+
+          <p>
+            * Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+            quibusdam rem magnam, mollitia autem tempora.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details-Features Section -->
+    <section class="details-features" id="details-features">
+      <div class="details-features__container container">
+        <h2 class="details-features__title">Features</h2>
+
+        <!-- Content 1 -->
+        <div class="details-features__content">
+          <div class="details-features__content-icon">
+            <i class="fas fa-rocket fa-4x"></i>
+          </div>
+          <div class="details-features__content-text">
+            <div class="details-features__content-title">Real-Time Data</div>
+            <div class="details-features__content-paragraph">
+              Access real-time data instantly, ensuring you're always up-to-date
+              with the latest information. Whether it's market trends, user
+              activity, or system performance metrics, stay informed with our
+              real-time data solutions.
+            </div>
+          </div>
+
+          <!-- Content 2 -->
+        </div>
+        <div class="details-features__content">
+          <div class="details-features__content-icon">
+            <i class="fas fa-user fa-4x"></i>
+          </div>
+          <div class="details-features__content-text">
+            <div class="details-features__content-title">
+              Simple integration
+            </div>
+            <div class="details-features__content-paragraph">
+              Integrate our solutions seamlessly into your existing workflow
+              with minimal effort. Our easy-to-use APIs and intuitive
+              documentation make integration a breeze, allowing you to focus on
+              what matters most - delivering value to your users.
+            </div>
+          </div>
+        </div>
+
+        <!-- Content 3 -->
+        <div class="details-features__content">
+          <div class="details-features__content-icon">
+            <i class="fas fa-code fa-4x"></i>
+          </div>
+          <div class="details-features__content-text">
+            <div class="details-features__content-title">Easy to use</div>
+            <div class="details-features__content-paragraph">
+              Experience unparalleled ease of use with our user-friendly
+              interface and intuitive features. From beginners to experts, our
+              platform is designed to cater to all skill levels, ensuring a
+              smooth and hassle-free experience for everyone.
+            </div>
+          </div>
+        </div>
+
+        <!-- Content 4 -->
+        <div class="details-features__content">
+          <div class="details-features__content-icon">
+            <i class="fas fa-compass fa-4x"></i>
+          </div>
+          <div class="details-features__content-text">
+            <div class="details-features__content-title">Hight Accuracy</div>
+            <div class="details-features__content-paragraph">
+              Rely on our high-precision algorithms and robust data processing
+              techniques to deliver accurate insights every time. With our
+              advanced technology and rigorous validation processes, you can
+              trust that your data is always reliable and precise.
+            </div>
+          </div>
+        </div>
+
+        <!-- Content 5 -->
+        <div class="details-features__content">
+          <div class="details-features__content-icon">
+            <i class="fas fa-chart-pie fa-4x"></i>
+          </div>
+          <div class="details-features__content-text">
+            <div class="details-features__content-title">Reporting Tools</div>
+            <div class="details-features__content-paragraph">
+              Empower your team with powerful reporting tools that provide
+              actionable insights and in-depth analysis. From customizable
+              dashboards to comprehensive reports, our reporting tools make it
+              easy to track performance, identify trends, and make informed
+              decisions.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section  -->
+    <footer class="footer" id="footer">
+      <div class="footer__container container">
+        <!-- Foooter - About -->
+        <div class="footer__about footer__grid-item">
+          <h3 class="footer__title">About Leno</h3>
+          <p class="footer__about-text">
+            Leno is a mobile app that helps you stay focused and improve your
+            productivity. The app provides you with tools to set goals, track
+            your progress, and maintain a healthy work-life balance.
+          </p>
+        </div>
+        <!-- Foooter - Quick-links -->
+        <div class="footer__links footer__grid-item">
+          <h3 class="footer__title">Quick Links</h3>
+          <ul class="footer__link-list">
+            <li class="footer__link-list-item">
+              <a href="index.html#hero" class="footer__link">Home</a>
+            </li>
+            <li class="footer__link-list-item">
+              <a href="index.html#features" class="footer__link">Features</a>
+            </li>
+            <li class="footer__link-list-item">
+              <a href="index.html#preview" class="footer__link">Preview</a>
+            </li>
+            <li class="footer__link-list-item">
+              <a href="index.html#details" class="footer__link">Details</a>
+            </li>
+            <li class="footer__link-list-item">
+              <a href="index.html#download" class="footer__link">Downloads</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Foooter - socials -->
+        <div class="footer__socials footer__grid-item">
+          <ul class="footer__social-list">
+            <li class="footer__social-list-item">
+              <a class="footer__social-list-item-link" href="#" target="_blank">
+                <i class="fa-brands fa-facebook fa-3x"></i>
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a class="footer__social-list-item-link" href="#" target="_blank">
+                <i class="fa-brands fa-twitter fa-3x"></i>
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a class="footer__social-list-item-link" href="#" target="_blank">
+                <i class="fa-brands fa-instagram fa-3x"></i>
+              </a>
+            </li>
+            <li class="footer__social-list-item">
+              <a class="footer__social-list-item-link" href="#" target="_blank">
+                <i class="fa-brands fa-linkedin fa-3x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
