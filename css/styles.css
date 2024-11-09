@@ -997,6 +997,11 @@ img {
     max-height: 90%;
   }
 
+  #modal__video {
+    width: 100%;
+    width: 100%;
+  }
+
   /* Pricing Cards */
   .pricing__cards {
     grid-template-columns: 1fr;
