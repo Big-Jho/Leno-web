@@ -25,14 +25,17 @@ document.addEventListener("DOMContentLoaded", function () {
   // Open Modal section when the video-player button is clicked
   videoPlayerButton.addEventListener("click", function () {
     modal.style.display = "block";
+    modal.src = "https://www.youtube.com/embed/G0cmfY7qdmY?si=nvEFCm5TU8SrsQP-";
   });
 
   // Close modal section on closeButton click
   closeButton.addEventListener("click", function () {
     modal.style.display = "none";
+    modal.src = "";
   });
 
   modal.addEventListener("click", function () {
     modal.style.display = "none";
+    modal.src = "";
   });
 });
