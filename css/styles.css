@@ -430,16 +430,16 @@ img {
   position: relative;
 }
 
-.modal__video {
+#modal__video {
   width: 100%;
-  border-radius: 10px;
-  /* padding: 1rem 0; */
+  /* border-radius: 10px; */
+  padding: 1rem;
 }
 
 .modal__close-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 2rem;
+  right: 2rem;
   font-size: 0.7rem;
 }
 
@@ -707,15 +707,6 @@ img {
   align-items: center;
   gap: 1rem;
   padding: 0 1rem;
-}
-
-.pricing__card.complete {
-}
-
-.pricing__card.advanced {
-}
-
-.pricing__card.standard {
 }
 
 .pricing__card {
@@ -1003,6 +994,7 @@ img {
   /* Modal Media Queries */
   .modal__video-wrapper {
     max-width: 90%;
+    max-height: 90%;
   }
 
   /* Pricing Cards */
@@ -1060,8 +1052,5 @@ img {
     flex-direction: column;
     text-align: center;
     gap: 1.5rem;
-  }
-
-  .details-features__content-icon {
   }
 }
